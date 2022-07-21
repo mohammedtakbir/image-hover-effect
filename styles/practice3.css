@@ -1,0 +1,21 @@
+img{
+    width: 300px;
+    height: 400px;
+}
+/* ? Gray Scale */
+.grayscale figure img{
+    filter: grayscale(100%);
+    transition: .5s;
+}
+.grayscale figure img:hover{
+    filter: grayscale(0);
+}
+
+/* ? Blur */
+.blur figure img{
+    filter: blur(3px);
+    transition: .5s;
+}
+.blur figure img:hover{
+    filter: blur(0);
+}
